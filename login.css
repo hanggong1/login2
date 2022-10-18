@@ -1,0 +1,203 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+*{
+    border:none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input{
+    background-color: rgb(217, 234, 212);
+    width:270px;
+    height:30px;
+}
+
+button{
+    width:130px;
+    height:40px;
+    background-color: rgb(163,183,147);
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    width:100vw;
+    height:99vh;
+}
+
+.left-img{
+    width:100%;
+    height:100%;
+}
+.left-img img{
+    width:100%;
+    height:100%;
+}
+
+.left-text{
+    position:absolute;
+    top:15%;
+    left:10%;
+    font-weight: bold;
+    color:white;
+}
+
+.left-text p:first-child{
+    font-size: 350%;
+}
+
+.left-text p:last-child{
+    font-size: 180%;
+    margin-left:40px;
+    margin-top: 15px;
+}
+
+.right-area .right-top {
+    margin-top:150px;
+    text-align: center;
+    font-size:230%;
+}
+
+.right-area form{
+    margin-top:100px;
+   
+}
+
+.right-area form fieldset{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.right-area form .id-box {
+    width:400px;
+    text-align: center;
+}
+
+.right-area form .id-box label{
+    margin-right:15px;
+    font-weight: bold;
+    font-size: 120%;
+    float:left;
+    margin-left:5px;
+   
+}
+
+.right-area form .pwd-box{
+margin-top:25px;
+margin-right:25px;
+} 
+
+.right-area form .pwd-box label{
+    margin-right:20px;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.right-area form .btn-box{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: center;
+    margin-top:60px;
+    /* margin-right:70px;
+     */
+    
+}
+
+.right-area .btn-box button{
+    cursor: pointer;
+    font-weight: bold;
+    font-size:110%;
+    
+}
+
+.right-area form .btn-box button:first-child{
+    margin-bottom: 10px;
+}
+
+.right-area .help-box{
+   margin-top:100px;
+    display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+    margin-left:70px;
+    
+    
+}
+
+.right-area .help-box .help-box1{
+    width:130px;
+    height:110px;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    background-color: rgb(196, 192, 192);
+    border-radius: 25%;
+}
+
+.right-area .help-box .help-box2{
+    width:130px;
+    height:110px;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    background-color: rgb(196, 192, 192);
+    border-radius: 25%;
+    margin-right:60px;
+}
+
+.right-area .help-box span{
+    font-weight: bold;
+    font-size: 120%;
+}
+
+
+
+
+
